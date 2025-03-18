@@ -1,0 +1,422 @@
+8.1s 1 Collecting snntorch
+8.1s 2 Downloading snntorch-0.9.1-py2.py3-none-any.whl.metadata (16 kB)
+8.1s 3 Requirement already satisfied: torch>=1.1.0 in /opt/conda/lib/python3.10/site-packages (from snntorch) (2.1.2)
+8.1s 4 Requirement already satisfied: pandas in /opt/conda/lib/python3.10/site-packages (from snntorch) (2.1.4)
+8.1s 5 Requirement already satisfied: matplotlib in /opt/conda/lib/python3.10/site-packages (from snntorch) (3.7.5)
+8.1s 6 Requirement already satisfied: numpy>=1.17 in /opt/conda/lib/python3.10/site-packages (from snntorch) (1.26.4)
+8.3s 7 Collecting nir (from snntorch)
+8.3s 8 Downloading nir-1.0.4-py3-none-any.whl.metadata (5.8 kB)
+8.4s 9 Collecting nirtorch (from snntorch)
+8.4s 10 Downloading nirtorch-1.0-py3-none-any.whl.metadata (3.6 kB)
+8.4s 11 Requirement already satisfied: filelock in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (3.13.1)
+8.4s 12 Requirement already satisfied: typing-extensions in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (4.9.0)
+8.4s 13 Requirement already satisfied: sympy in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (1.12)
+8.4s 14 Requirement already satisfied: networkx in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (3.2.1)
+8.4s 15 Requirement already satisfied: jinja2 in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (3.1.2)
+8.4s 16 Requirement already satisfied: fsspec in /opt/conda/lib/python3.10/site-packages (from torch>=1.1.0->snntorch) (2024.2.0)
+8.4s 17 Requirement already satisfied: contourpy>=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (1.2.0)
+8.4s 18 Requirement already satisfied: cycler>=0.10 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (0.12.1)
+8.4s 19 Requirement already satisfied: fonttools>=4.22.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (4.47.0)
+8.4s 20 Requirement already satisfied: kiwisolver>=1.0.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (1.4.5)
+8.4s 21 Requirement already satisfied: packaging>=20.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (21.3)
+8.4s 22 Requirement already satisfied: pillow>=6.2.0 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (9.5.0)
+8.5s 23 Requirement already satisfied: pyparsing>=2.3.1 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (3.1.1)
+8.5s 24 Requirement already satisfied: python-dateutil>=2.7 in /opt/conda/lib/python3.10/site-packages (from matplotlib->snntorch) (2.9.0.post0)
+8.5s 25 Requirement already satisfied: h5py in /opt/conda/lib/python3.10/site-packages (from nir->snntorch) (3.10.0)
+8.6s 26 Requirement already satisfied: pytz>=2020.1 in /opt/conda/lib/python3.10/site-packages (from pandas->snntorch) (2023.3.post1)
+8.6s 27 Requirement already satisfied: tzdata>=2022.1 in /opt/conda/lib/python3.10/site-packages (from pandas->snntorch) (2023.4)
+8.7s 28 Requirement already satisfied: six>=1.5 in /opt/conda/lib/python3.10/site-packages (from python-dateutil>=2.7->matplotlib->snntorch) (1.16.0)
+8.8s 29 Requirement already satisfied: MarkupSafe>=2.0 in /opt/conda/lib/python3.10/site-packages (from jinja2->torch>=1.1.0->snntorch) (2.1.3)
+8.8s 30 Requirement already satisfied: mpmath>=0.19 in /opt/conda/lib/python3.10/site-packages (from sympy->torch>=1.1.0->snntorch) (1.3.0)
+8.9s 31 Downloading snntorch-0.9.1-py2.py3-none-any.whl (125 kB)
+8.9s 32 [?25l   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m0.0/125.3 kB[0m [31m?[0m eta [36m-:--:--[0m[2K   [90m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━[0m [32m125.3/125.3 kB[0m [31m6.3 MB/s[0m eta [36m0:00:00[0m
+8.9s 33 [?25hDownloading nir-1.0.4-py3-none-any.whl (18 kB)
+8.9s 34 Downloading nirtorch-1.0-py3-none-any.whl (13 kB)
+19.1s 35 Installing collected packages: nir, nirtorch, snntorch
+19.5s 36 Successfully installed nir-1.0.4 nirtorch-1.0 snntorch-0.9.1
+93.3s 37 training on cuda------
+94.2s 38 ------Epoch 1, Iteration 0------
+94.2s 39 ------Loss of F 为：41.011348724365234------
+96.5s 40 ------Epoch 1, Iteration 50------
+96.5s 41 ------Loss of F 为：7.568099021911621------
+98.8s 42 ------Epoch 1, Iteration 100------
+98.8s 43 ------Loss of F 为：0.886486291885376------
+101.1s 44 ------Epoch 1, Iteration 150------
+101.1s 45 ------Loss of F 为：0.7333617210388184------
+103.4s 46 ------Epoch 1, Iteration 200------
+103.4s 47 ------Loss of F 为：1.4107918739318848------
+106.1s 48 ------Epoch 2, Iteration 0------
+106.1s 49 ------Loss of F 为：1.8406943082809448------
+108.5s 50 ------Epoch 2, Iteration 50------
+108.5s 51 ------Loss of F 为：0.5173057913780212------
+111.1s 52 ------Epoch 2, Iteration 100------
+111.1s 53 ------Loss of F 为：0.6939775347709656------
+113.5s 54 ------Epoch 2, Iteration 150------
+113.5s 55 ------Loss of F 为：0.4569563865661621------
+115.8s 56 ------Epoch 2, Iteration 200------
+115.8s 57 ------Loss of F 为：0.36340877413749695------
+118.4s 58 ------Epoch 3, Iteration 0------
+118.4s 59 ------Loss of F 为：0.5958713889122009------
+120.7s 60 ------Epoch 3, Iteration 50------
+120.7s 61 ------Loss of F 为：0.65364670753479------
+123.1s 62 ------Epoch 3, Iteration 100------
+123.1s 63 ------Loss of F 为：0.4497376084327698------
+125.5s 64 ------Epoch 3, Iteration 150------
+125.5s 65 ------Loss of F 为：0.9886064529418945------
+127.8s 66 ------Epoch 3, Iteration 200------
+127.8s 67 ------Loss of F 为：0.49330002069473267------
+130.4s 68 ------Epoch 4, Iteration 0------
+130.4s 69 ------Loss of F 为：0.27013033628463745------
+132.7s 70 ------Epoch 4, Iteration 50------
+132.7s 71 ------Loss of F 为：0.4565688967704773------
+135.0s 72 ------Epoch 4, Iteration 100------
+135.0s 73 ------Loss of F 为：0.7911046743392944------
+137.4s 74 ------Epoch 4, Iteration 150------
+137.4s 75 ------Loss of F 为：1.4939594268798828------
+139.7s 76 ------Epoch 4, Iteration 200------
+139.7s 77 ------Loss of F 为：0.2215236872434616------
+142.4s 78 ------Epoch 5, Iteration 0------
+142.4s 79 ------Loss of F 为：0.5478919744491577------
+144.7s 80 ------Epoch 5, Iteration 50------
+144.7s 81 ------Loss of F 为：0.6037852168083191------
+147.0s 82 ------Epoch 5, Iteration 100------
+147.0s 83 ------Loss of F 为：0.3820902705192566------
+149.3s 84 ------Epoch 5, Iteration 150------
+149.3s 85 ------Loss of F 为：0.6679298877716064------
+151.6s 86 ------Epoch 5, Iteration 200------
+151.6s 87 ------Loss of F 为：0.3258059024810791------
+154.5s 88 ------Epoch 6, Iteration 0------
+154.5s 89 ------Loss of F 为：0.09627451747655869------
+156.7s 90 ------Epoch 6, Iteration 50------
+156.7s 91 ------Loss of F 为：0.1648682951927185------
+159.1s 92 ------Epoch 6, Iteration 100------
+159.1s 93 ------Loss of F 为：0.42256197333335876------
+161.4s 94 ------Epoch 6, Iteration 150------
+161.4s 95 ------Loss of F 为：0.09847402572631836------
+163.7s 96 ------Epoch 6, Iteration 200------
+163.7s 97 ------Loss of F 为：0.12409669160842896------
+166.3s 98 ------Epoch 7, Iteration 0------
+166.3s 99 ------Loss of F 为：0.11924207210540771------
+168.6s 100 ------Epoch 7, Iteration 50------
+168.6s 101 ------Loss of F 为：0.10830547660589218------
+170.9s 102 ------Epoch 7, Iteration 100------
+170.9s 103 ------Loss of F 为：0.0782506987452507------
+173.4s 104 ------Epoch 7, Iteration 150------
+173.4s 105 ------Loss of F 为：0.17563268542289734------
+175.7s 106 ------Epoch 7, Iteration 200------
+175.7s 107 ------Loss of F 为：0.09456934779882431------
+178.4s 108 ------Epoch 8, Iteration 0------
+178.4s 109 ------Loss of F 为：0.0969914123415947------
+180.7s 110 ------Epoch 8, Iteration 50------
+180.7s 111 ------Loss of F 为：0.09094671905040741------
+183.1s 112 ------Epoch 8, Iteration 100------
+183.1s 113 ------Loss of F 为：0.07401564717292786------
+185.6s 114 ------Epoch 8, Iteration 150------
+185.6s 115 ------Loss of F 为：0.07943975180387497------
+187.9s 116 ------Epoch 8, Iteration 200------
+187.9s 117 ------Loss of F 为：0.05002754181623459------
+190.6s 118 ------Epoch 9, Iteration 0------
+190.6s 119 ------Loss of F 为：0.08300741016864777------
+193.0s 120 ------Epoch 9, Iteration 50------
+193.0s 121 ------Loss of F 为：0.10202619433403015------
+195.4s 122 ------Epoch 9, Iteration 100------
+195.4s 123 ------Loss of F 为：0.12402024120092392------
+197.7s 124 ------Epoch 9, Iteration 150------
+197.7s 125 ------Loss of F 为：0.09573318809270859------
+200.1s 126 ------Epoch 9, Iteration 200------
+200.1s 127 ------Loss of F 为：0.14701370894908905------
+202.9s 128 ------Epoch 10, Iteration 0------
+202.9s 129 ------Loss of F 为：0.0682680606842041------
+205.3s 130 ------Epoch 10, Iteration 50------
+205.3s 131 ------Loss of F 为：0.057164616882801056------
+207.6s 132 ------Epoch 10, Iteration 100------
+207.6s 133 ------Loss of F 为：0.033852361142635345------
+209.9s 134 ------Epoch 10, Iteration 150------
+209.9s 135 ------Loss of F 为：0.07983437925577164------
+212.2s 136 ------Epoch 10, Iteration 200------
+212.2s 137 ------Loss of F 为：0.05371071398258209------
+215.3s 138 training on cuda------
+215.6s 139 ------Epoch 1, Iteration 0------
+215.6s 140 ------Loss of U 为：40.13304138183594------
+217.9s 141 ------Epoch 1, Iteration 50------
+217.9s 142 ------Loss of U 为：7.865783214569092------
+220.2s 143 ------Epoch 1, Iteration 100------
+220.2s 144 ------Loss of U 为：1.691840410232544------
+222.5s 145 ------Epoch 1, Iteration 150------
+222.5s 146 ------Loss of U 为：0.902922511100769------
+224.8s 147 ------Epoch 1, Iteration 200------
+224.8s 148 ------Loss of U 为：0.9967312216758728------
+227.4s 149 ------Epoch 2, Iteration 0------
+227.4s 150 ------Loss of U 为：1.0920230150222778------
+229.7s 151 ------Epoch 2, Iteration 50------
+229.7s 152 ------Loss of U 为：0.806738555431366------
+232.0s 153 ------Epoch 2, Iteration 100------
+232.0s 154 ------Loss of U 为：0.951525092124939------
+234.4s 155 ------Epoch 2, Iteration 150------
+234.4s 156 ------Loss of U 为：0.6796523332595825------
+236.7s 157 ------Epoch 2, Iteration 200------
+236.7s 158 ------Loss of U 为：0.6261295676231384------
+239.5s 159 ------Epoch 3, Iteration 0------
+239.5s 160 ------Loss of U 为：0.4147410988807678------
+241.8s 161 ------Epoch 3, Iteration 50------
+241.8s 162 ------Loss of U 为：0.6278755068778992------
+244.2s 163 ------Epoch 3, Iteration 100------
+244.2s 164 ------Loss of U 为：0.3399093747138977------
+246.5s 165 ------Epoch 3, Iteration 150------
+246.5s 166 ------Loss of U 为：0.5489550828933716------
+248.8s 167 ------Epoch 3, Iteration 200------
+248.8s 168 ------Loss of U 为：0.26516517996788025------
+251.4s 169 ------Epoch 4, Iteration 0------
+251.4s 170 ------Loss of U 为：0.8505469560623169------
+253.8s 171 ------Epoch 4, Iteration 50------
+253.8s 172 ------Loss of U 为：0.533463180065155------
+256.2s 173 ------Epoch 4, Iteration 100------
+256.2s 174 ------Loss of U 为：0.18850867450237274------
+258.5s 175 ------Epoch 4, Iteration 150------
+258.5s 176 ------Loss of U 为：0.41738587617874146------
+260.8s 177 ------Epoch 4, Iteration 200------
+260.8s 178 ------Loss of U 为：0.39074644446372986------
+263.4s 179 ------Epoch 5, Iteration 0------
+263.4s 180 ------Loss of U 为：1.0081456899642944------
+265.8s 181 ------Epoch 5, Iteration 50------
+265.8s 182 ------Loss of U 为：0.25793009996414185------
+268.2s 183 ------Epoch 5, Iteration 100------
+268.2s 184 ------Loss of U 为：0.2521083950996399------
+270.5s 185 ------Epoch 5, Iteration 150------
+270.5s 186 ------Loss of U 为：0.2481052279472351------
+272.8s 187 ------Epoch 5, Iteration 200------
+272.8s 188 ------Loss of U 为：0.19513610005378723------
+275.4s 189 ------Epoch 6, Iteration 0------
+275.4s 190 ------Loss of U 为：0.18231181800365448------
+277.8s 191 ------Epoch 6, Iteration 50------
+277.8s 192 ------Loss of U 为：0.2272900938987732------
+280.1s 193 ------Epoch 6, Iteration 100------
+280.1s 194 ------Loss of U 为：0.09247040003538132------
+282.4s 195 ------Epoch 6, Iteration 150------
+282.4s 196 ------Loss of U 为：0.262060284614563------
+284.7s 197 ------Epoch 6, Iteration 200------
+284.7s 198 ------Loss of U 为：0.12753331661224365------
+287.5s 199 ------Epoch 7, Iteration 0------
+287.5s 200 ------Loss of U 为：0.09691709280014038------
+289.8s 201 ------Epoch 7, Iteration 50------
+289.8s 202 ------Loss of U 为：0.10750937461853027------
+292.2s 203 ------Epoch 7, Iteration 100------
+292.2s 204 ------Loss of U 为：0.4014964699745178------
+294.5s 205 ------Epoch 7, Iteration 150------
+294.5s 206 ------Loss of U 为：0.19429771602153778------
+296.8s 207 ------Epoch 7, Iteration 200------
+296.8s 208 ------Loss of U 为：0.4057158827781677------
+299.4s 209 ------Epoch 8, Iteration 0------
+299.4s 210 ------Loss of U 为：0.12120537459850311------
+301.8s 211 ------Epoch 8, Iteration 50------
+301.8s 212 ------Loss of U 为：0.11688689887523651------
+304.1s 213 ------Epoch 8, Iteration 100------
+304.1s 214 ------Loss of U 为：0.36982887983322144------
+306.4s 215 ------Epoch 8, Iteration 150------
+306.4s 216 ------Loss of U 为：0.04743474721908569------
+308.7s 217 ------Epoch 8, Iteration 200------
+308.7s 218 ------Loss of U 为：0.1006416529417038------
+311.3s 219 ------Epoch 9, Iteration 0------
+311.3s 220 ------Loss of U 为：0.11765992641448975------
+313.6s 221 ------Epoch 9, Iteration 50------
+313.6s 222 ------Loss of U 为：0.1058957427740097------
+315.9s 223 ------Epoch 9, Iteration 100------
+315.9s 224 ------Loss of U 为：0.08805891126394272------
+318.2s 225 ------Epoch 9, Iteration 150------
+318.2s 226 ------Loss of U 为：0.10193117707967758------
+320.5s 227 ------Epoch 9, Iteration 200------
+320.5s 228 ------Loss of U 为：0.11735954135656357------
+323.1s 229 ------Epoch 10, Iteration 0------
+323.1s 230 ------Loss of U 为：0.10563734173774719------
+325.4s 231 ------Epoch 10, Iteration 50------
+325.4s 232 ------Loss of U 为：0.21151363849639893------
+327.7s 233 ------Epoch 10, Iteration 100------
+327.7s 234 ------Loss of U 为：0.10954310745000839------
+330.2s 235 ------Epoch 10, Iteration 150------
+330.2s 236 ------Loss of U 为：0.2506680488586426------
+332.5s 237 ------Epoch 10, Iteration 200------
+332.5s 238 ------Loss of U 为：0.1725020408630371------
+335.4s 239 training on cuda------
+335.7s 240 ------Epoch 1, Iteration 0------
+335.7s 241 ------Loss of Str 为：26.878559112548828------
+338.1s 242 ------Epoch 1, Iteration 50------
+338.1s 243 ------Loss of Str 为：8.70612621307373------
+340.4s 244 ------Epoch 1, Iteration 100------
+340.4s 245 ------Loss of Str 为：18.75739288330078------
+342.8s 246 ------Epoch 1, Iteration 150------
+342.8s 247 ------Loss of Str 为：5.097693920135498------
+345.1s 248 ------Epoch 1, Iteration 200------
+345.1s 249 ------Loss of Str 为：8.311004638671875------
+348.0s 250 ------Epoch 2, Iteration 0------
+348.0s 251 ------Loss of Str 为：2.835353136062622------
+350.3s 252 ------Epoch 2, Iteration 50------
+350.3s 253 ------Loss of Str 为：3.050151824951172------
+352.6s 254 ------Epoch 2, Iteration 100------
+352.6s 255 ------Loss of Str 为：2.950406074523926------
+355.0s 256 ------Epoch 2, Iteration 150------
+355.0s 257 ------Loss of Str 为：3.0533604621887207------
+357.3s 258 ------Epoch 2, Iteration 200------
+357.3s 259 ------Loss of Str 为：1.5969109535217285------
+359.9s 260 ------Epoch 3, Iteration 0------
+359.9s 261 ------Loss of Str 为：1.5531474351882935------
+362.3s 262 ------Epoch 3, Iteration 50------
+362.3s 263 ------Loss of Str 为：2.7019338607788086------
+364.7s 264 ------Epoch 3, Iteration 100------
+364.7s 265 ------Loss of Str 为：1.0942989587783813------
+367.0s 266 ------Epoch 3, Iteration 150------
+367.0s 267 ------Loss of Str 为：1.493357539176941------
+369.3s 268 ------Epoch 3, Iteration 200------
+369.3s 269 ------Loss of Str 为：1.0633760690689087------
+372.0s 270 ------Epoch 4, Iteration 0------
+372.0s 271 ------Loss of Str 为：1.4627166986465454------
+374.3s 272 ------Epoch 4, Iteration 50------
+374.3s 273 ------Loss of Str 为：1.046554446220398------
+376.6s 274 ------Epoch 4, Iteration 100------
+376.6s 275 ------Loss of Str 为：0.49070844054222107------
+378.9s 276 ------Epoch 4, Iteration 150------
+378.9s 277 ------Loss of Str 为：1.4686713218688965------
+381.2s 278 ------Epoch 4, Iteration 200------
+381.2s 279 ------Loss of Str 为：0.711780309677124------
+383.8s 280 ------Epoch 5, Iteration 0------
+383.8s 281 ------Loss of Str 为：0.5956956148147583------
+386.1s 282 ------Epoch 5, Iteration 50------
+386.1s 283 ------Loss of Str 为：0.8470069766044617------
+388.5s 284 ------Epoch 5, Iteration 100------
+388.5s 285 ------Loss of Str 为：1.0513464212417603------
+390.8s 286 ------Epoch 5, Iteration 150------
+390.8s 287 ------Loss of Str 为：0.692802906036377------
+393.4s 288 ------Epoch 5, Iteration 200------
+393.4s 289 ------Loss of Str 为：3.141409397125244------
+396.2s 290 ------Epoch 6, Iteration 0------
+396.2s 291 ------Loss of Str 为：0.7264494895935059------
+398.6s 292 ------Epoch 6, Iteration 50------
+398.6s 293 ------Loss of Str 为：0.7794508934020996------
+400.9s 294 ------Epoch 6, Iteration 100------
+400.9s 295 ------Loss of Str 为：0.7169754505157471------
+403.3s 296 ------Epoch 6, Iteration 150------
+403.3s 297 ------Loss of Str 为：0.5342661738395691------
+405.6s 298 ------Epoch 6, Iteration 200------
+405.6s 299 ------Loss of Str 为：1.0493497848510742------
+408.2s 300 ------Epoch 7, Iteration 0------
+408.2s 301 ------Loss of Str 为：0.4125419855117798------
+410.6s 302 ------Epoch 7, Iteration 50------
+410.6s 303 ------Loss of Str 为：1.1093684434890747------
+413.0s 304 ------Epoch 7, Iteration 100------
+413.0s 305 ------Loss of Str 为：0.6395589709281921------
+415.4s 306 ------Epoch 7, Iteration 150------
+415.4s 307 ------Loss of Str 为：0.4104030728340149------
+417.8s 308 ------Epoch 7, Iteration 200------
+417.8s 309 ------Loss of Str 为：0.6892379522323608------
+420.5s 310 ------Epoch 8, Iteration 0------
+420.5s 311 ------Loss of Str 为：0.4746890962123871------
+422.9s 312 ------Epoch 8, Iteration 50------
+422.9s 313 ------Loss of Str 为：0.5617225766181946------
+425.3s 314 ------Epoch 8, Iteration 100------
+425.3s 315 ------Loss of Str 为：0.4232705235481262------
+427.7s 316 ------Epoch 8, Iteration 150------
+427.7s 317 ------Loss of Str 为：0.8057975172996521------
+430.1s 318 ------Epoch 8, Iteration 200------
+430.1s 319 ------Loss of Str 为：1.3015648126602173------
+432.7s 320 ------Epoch 9, Iteration 0------
+432.7s 321 ------Loss of Str 为：0.6966503858566284------
+435.1s 322 ------Epoch 9, Iteration 50------
+435.1s 323 ------Loss of Str 为：0.3481620252132416------
+437.5s 324 ------Epoch 9, Iteration 100------
+437.5s 325 ------Loss of Str 为：1.3993366956710815------
+439.8s 326 ------Epoch 9, Iteration 150------
+439.8s 327 ------Loss of Str 为：0.7763059139251709------
+442.3s 328 ------Epoch 9, Iteration 200------
+442.3s 329 ------Loss of Str 为：0.8029400110244751------
+445.1s 330 ------Epoch 10, Iteration 0------
+445.1s 331 ------Loss of Str 为：0.4440220296382904------
+447.5s 332 ------Epoch 10, Iteration 50------
+447.5s 333 ------Loss of Str 为：0.7785639762878418------
+449.8s 334 ------Epoch 10, Iteration 100------
+449.8s 335 ------Loss of Str 为：0.41399717330932617------
+452.2s 336 ------Epoch 10, Iteration 150------
+452.2s 337 ------Loss of Str 为：0.34769406914711------
+454.5s 338 ------Epoch 10, Iteration 200------
+454.5s 339 ------Loss of Str 为：0.28106459975242615------
+765.8s 340 F的相对误差：4.5360%
+765.8s 341 U的相对误差5.1766%
+765.8s 342 Str的相对误差14.8017%
+770.6s 343 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+770.6s 344 warn(
+770.6s 345 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+770.6s 346 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+771.1s 347 [NbConvertApp] Writing 2624237 bytes to __notebook__.ipynb
+772.7s 348 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+772.7s 349 warn(
+772.7s 350 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+772.8s 351 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+773.8s 352 [NbConvertApp] Support files will be in __results___files/
+773.8s 353 [NbConvertApp] Making directory __results___files
+773.8s 354 [NbConvertApp] Making directory __results___files
+773.8s 355 [NbConvertApp] Making directory __results___files
+773.8s 356 [NbConvertApp] Making directory __results___files
+773.8s 357 [NbConvertApp] Making directory __results___files
+773.8s 358 [NbConvertApp] Making directory __results___files
+773.8s 359 [NbConvertApp] Making directory __results___files
+773.8s 360 [NbConvertApp] Making directory __results___files
+773.8s 361 [NbConvertApp] Making directory __results___files
+773.8s 362 [NbConvertApp] Making directory __results___files
+773.8s 363 [NbConvertApp] Making directory __results___files
+773.8s 364 [NbConvertApp] Making directory __results___files
+773.8s 365 [NbConvertApp] Making directory __results___files
+773.8s 366 [NbConvertApp] Making directory __results___files
+773.8s 367 [NbConvertApp] Making directory __results___files
+773.8s 368 [NbConvertApp] Making directory __results___files
+773.8s 369 [NbConvertApp] Making directory __results___files
+773.8s 370 [NbConvertApp] Making directory __results___files
+773.8s 371 [NbConvertApp] Making directory __results___files
+773.8s 372 [NbConvertApp] Making directory __results___files
+773.8s 373 [NbConvertApp] Making directory __results___files
+773.8s 374 [NbConvertApp] Making directory __results___files
+773.8s 375 [NbConvertApp] Making directory __results___files
+773.8s 376 [NbConvertApp] Making directory __results___files
+773.8s 377 [NbConvertApp] Making directory __results___files
+773.8s 378 [NbConvertApp] Making directory __results___files
+773.8s 379 [NbConvertApp] Making directory __results___files
+773.8s 380 [NbConvertApp] Making directory __results___files
+773.8s 381 [NbConvertApp] Making directory __results___files
+773.8s 382 [NbConvertApp] Making directory __results___files
+773.8s 383 [NbConvertApp] Making directory __results___files
+773.8s 384 [NbConvertApp] Making directory __results___files
+773.8s 385 [NbConvertApp] Making directory __results___files
+773.8s 386 [NbConvertApp] Making directory __results___files
+773.8s 387 [NbConvertApp] Making directory __results___files
+773.8s 388 [NbConvertApp] Making directory __results___files
+773.8s 389 [NbConvertApp] Making directory __results___files
+773.8s 390 [NbConvertApp] Making directory __results___files
+773.8s 391 [NbConvertApp] Making directory __results___files
+773.8s 392 [NbConvertApp] Making directory __results___files
+773.8s 393 [NbConvertApp] Making directory __results___files
+773.8s 394 [NbConvertApp] Making directory __results___files
+773.8s 395 [NbConvertApp] Making directory __results___files
+773.8s 396 [NbConvertApp] Making directory __results___files
+773.8s 397 [NbConvertApp] Making directory __results___files
+773.8s 398 [NbConvertApp] Making directory __results___files
+773.8s 399 [NbConvertApp] Making directory __results___files
+773.8s 400 [NbConvertApp] Making directory __results___files
+773.8s 401 [NbConvertApp] Making directory __results___files
+773.8s 402 [NbConvertApp] Making directory __results___files
+773.8s 403 [NbConvertApp] Making directory __results___files
+773.8s 404 [NbConvertApp] Making directory __results___files
+773.8s 405 [NbConvertApp] Making directory __results___files
+773.8s 406 [NbConvertApp] Making directory __results___files
+773.8s 407 [NbConvertApp] Making directory __results___files
+773.8s 408 [NbConvertApp] Making directory __results___files
+773.8s 409 [NbConvertApp] Making directory __results___files
+773.8s 410 [NbConvertApp] Making directory __results___files
+773.8s 411 [NbConvertApp] Making directory __results___files
+773.8s 412 [NbConvertApp] Making directory __results___files
+773.8s 413 [NbConvertApp] Making directory __results___files
+773.8s 414 [NbConvertApp] Making directory __results___files
+773.8s 415 [NbConvertApp] Making directory __results___files
+773.8s 416 [NbConvertApp] Making directory __results___files
+773.8s 417 [NbConvertApp] Making directory __results___files
+773.8s 418 [NbConvertApp] Making directory __results___files
+773.8s 419 [NbConvertApp] Making directory __results___files
+773.8s 420 [NbConvertApp] Making directory __results___files
+773.8s 421 [NbConvertApp] Making directory __results___files
+773.8s 422 [NbConvertApp] Writing 387011 bytes to __results__.html
